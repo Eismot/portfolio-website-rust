@@ -1,0 +1,49 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--font-stack);
+    line-height: 2em;
+    font-size: 18px;
+}
+
+h1 {
+    margin: 0 2rem 0 2rem;
+}
+
+h3 {
+    font-family: var(--font-stack--bold);
+    font-weight: unset;
+    font-size: 2rem;
+    color: var(--color-title);
+    text-align: center;
+    margin-top: 5rem;
+    svg {
+	height: 2rem;
+	width: 2rem;
+    }
+}
+
+a {
+    color: var(--highlight);
+}
+
+footer {
+    margin-top: 1.5rem;
+    text-align: center;
+    font-size: 0.8em;
+    color: var(--color);
+    a {
+	color: inherit;
+	font-weight: bold;
+    }
+}
+
+.unselectable {
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}

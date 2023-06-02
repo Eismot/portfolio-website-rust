@@ -1,0 +1,18 @@
+@use 'sass:math';
+
+.svg-text {
+    $size: 1.5rem;
+    height: $size;
+    width: $size;
+    margin: 0 2px 0 2px;
+    border-radius: 6px;
+    position: relative;
+    top: math.div($size, 4);
+}
+
+.svg-contact {
+    $size: 50px;
+    height: $size;
+    width: $size;
+    fill: black;
+}

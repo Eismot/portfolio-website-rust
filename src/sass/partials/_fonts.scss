@@ -1,0 +1,100 @@
+/* Nav  */
+@font-face {
+  font-family: "satisfy";
+  src: url("./assets/fonts/Satisfy-Regular.ttf");
+}
+
+/* Landing */
+@font-face {
+  font-family: "jetbrainsmono";
+  src: url("./assets/fonts/JetBrainsMono-Regular.woff2");
+}
+
+/* Main font */
+@font-face {
+  font-family: "opensanslight";
+  src: url("./assets/fonts/OpenSans-Light.woff2");
+}
+
+@font-face {
+  font-family: "opensansregular";
+  src: url("./assets/fonts/OpenSans-Regular.woff2");
+}
+
+@font-face {
+  font-family: "opensansbold";
+  src: url("./assets/fonts/OpenSans-Bold.woff2");
+}
+
+/* Japanese & Korean */
+// BOLD
+@font-face {
+  font-family: "notosansjpbold";
+  src: url("./assets/fonts/NotoSansJP-Bold.otf");
+}
+
+@font-face {
+  font-family: "notosanskrbold";
+  src: url("./assets/fonts/NotoSansKR-Bold.otf");
+}
+
+@font-face {
+  font-family: "notosansjpbold-woff2";
+  src: url("./assets/fonts/NotoSansJP-Bold-Alphabetic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "notosanskrbold-woff2";
+  src: url("./assets/fonts/NotoSansKR-Bold-Alphabetic.woff2") format("woff2");
+}
+
+// REGULAR
+@font-face {
+  font-family: "notosansjpregular";
+  src: url("./assets/fonts/NotoSansJP-Regular.otf");
+}
+
+@font-face {
+  font-family: "notosanskrregular";
+  src: url("./assets/fonts/NotoSansKR-Regular.otf");
+}
+
+@font-face {
+  font-family: "notosansjpregular-woff2";
+  src: url("./assets/fonts/NotoSansJP-Regular-Alphabetic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "notosanskrregular-woff2";
+  src: url("./assets/fonts/NotoSansKR-Regular-Alphabetic.woff2") format("woff2");
+}
+
+// LIGHT
+@font-face {
+  font-family: "notosansjplight";
+  src: url("./assets/fonts/NotoSansJP-Light.otf");
+}
+
+@font-face {
+  font-family: "notosanskrlight";
+  src: url("./assets/fonts/NotoSansKR-Light.otf");
+}
+
+@font-face {
+  font-family: "notosansjplight-woff2";
+  src: url("./assets/fonts/NotoSansJP-Light-Alphabetic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "notosanskrlight-woff2";
+  src: url("./assets/fonts/NotoSansKR-Light-Alphabetic.woff2") format("woff2");
+}
+
+:root {
+  --font-stack: "opensansregular", "notosansjpregular", "notosanskrregular";
+  // --font-stack: "opensansregular", "notosansjpregular-woff2", "notosanskrregular-woff2";
+  --font-stack--bold: "opensansbold", "notosansjpbold", "notosanskrbold";
+  // --font-stack--bold: "opensansbold", "notosansjpbold-woff2", "notosanskrbold-woff2";
+  --font-stack--light: "opensanslight", "notosansjplight", "notosanskrlight";
+  // --font-stack--light: "opensanslight", "notosansjplight-woff2", "notosanskrlight-woff2";
+}

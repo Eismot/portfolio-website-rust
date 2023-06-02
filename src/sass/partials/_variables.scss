@@ -1,0 +1,37 @@
+:root {
+    --bg: white;
+    --color: #737272;
+    --color-title: black;
+    --highlight: #5dadec;
+
+    --dropdown-bg: #e3e3e3;
+    --dropdown-highlight: #cacaca;
+
+    --card-bg: #f9f9f9;
+    --card-radius: 30px;
+}
+
+
+.dark {
+    --bg: #161923;
+    --color: #d1d4e6;
+    --color-title: #bcbdd0;
+    --highlight: #9fa2e6;
+
+    --dropdown-bg: #262b3e;
+    --dropdown-highlight: #2e344b;
+
+    --card-bg: #232838;
+}
+
+.rust {
+    --bg: #fffef8;
+    --color: #80786b
+    --color-title: #262625;
+    --highlight: #796761;
+
+    --dropdown-bg: #d2d0bf;
+    --dropdown-highlight: #adab9c;
+
+    --card-bg: #f1efe1;
+}

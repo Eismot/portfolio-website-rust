@@ -1,0 +1,61 @@
+.skills {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 1rem 0 4rem 0;
+    // card style
+    background-color: var(--card-bg);
+    border-radius: var(--card-radius);
+    padding: 1.5rem;
+
+    .skills__item {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        img {
+            width: 85px;
+            height: 85px;
+            margin: 25px;
+            border-radius: 10px;
+            filter: grayscale(100%);
+            &:hover {
+                filter: grayscale(0%);
+                transition: filter 0.2s ease-in;
+            }
+            &:hover + .skills__tooltip {
+                position: relative;
+                display: inline-block;
+                // visibility: hidden;
+                // width: 120px;
+                // width: 8rem;
+		width: fit-content;
+                background-color: black;
+                color: #fff;
+                opacity: 0.7;
+                text-align: center;
+                padding: 0 0.5rem;
+                border-radius: 6px;
+                /* Position the tooltip text - see examples below! */
+                position: absolute;
+                bottom: -25px;
+                // left: 0;
+                z-index: 1;
+            }
+        }
+        .skills__tooltip {
+            display: none;
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .skills {
+        .skills__item {
+            img {
+                width: 50px;
+                height: 50px;
+            }
+        }
+    }
+}

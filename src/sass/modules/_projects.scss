@@ -1,0 +1,93 @@
+.projects__project {
+    background-color: var(--card-bg);
+    border-radius: var(--card-radius);
+    margin-top: 10rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.projects__project__info {
+    padding: 1.5rem;
+}
+
+.projects__project__info__title {
+    font-family: var(--font-stack--bold);
+    font-size: 2rem;
+    margin: 0;
+    margin-bottom: 1rem;
+}
+
+.projects__project__info__subtitle {
+    @extend .projects__project__info__title;
+    font-family: var(--font-stack);
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.projects__project__info__description {
+    font-family: var(--font-stack--light);
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.projects__project__info__link {
+    display: inline-block;
+    font-size: 1rem;
+    padding: .8rem;
+    background-color: var(--highlight);
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-top: 0.5rem;
+}
+
+.projects__project__info__link--lighter {
+    @extend .projects__project__info__link;
+    filter: grayscale(0.5);
+}
+
+.projects__project__pic {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    min-width: 200px;
+    min-height: auto;
+    height: fit-content; // this is needed for setting the "max-height" of the image ot itselfs size respectively
+                         // instead of filling the whole container
+    border-radius: 20px;
+    margin: 1rem;
+    margin-top: -100px; // moves the img outside of the top of the container
+    // margin-bottom: -100px; // moves the img outside of the top of the container
+    align-self: end;
+}
+
+.projects__project--babbeln {
+    background-color: #3a4255;
+    color: white;
+
+    .projects__project__info__link {
+	background-color: #b48ead;
+    }
+}
+
+.projects__project--sprachschule {
+    background-color: #f6faff;
+    color: black;
+
+    .projects__project__info__title, .projects__project__info__subtitle {
+	color: #7392b7;
+    }
+
+    .projects__project__info__link {
+	background-color: #9dca77;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .projects__project {
+	flex-wrap: wrap-reverse;
+	margin-top: 2rem;
+    }
+
+    .projects__project__pic {
+	margin: 1rem; // reset all its margin to "default"
+    }
+}

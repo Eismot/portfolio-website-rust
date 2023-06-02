@@ -1,0 +1,12 @@
+[package]
+name = "maeurerdev_function"
+version = "2.0.0"
+edition = "2021"
+license = "MIT"
+
+[dependencies]
+yew = "0.19.3"
+gloo-console = "0.2.1"
+gloo-storage = "0.2.1"
+web-sys = { version = "0.3.57", features = ["Navigator", "MediaQueryList"] }
+# wasm-bindgen = "0.2.80" # only for JsValue type

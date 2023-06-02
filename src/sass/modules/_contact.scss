@@ -1,0 +1,47 @@
+.contact {
+    background-color: var(--card-bg);
+    border-radius: var(--card-radius);
+    padding: 1.5rem;
+
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    // grid-template-columns: 1fr 2fr;
+    // justify-content: center;
+    // align-items: center;
+}
+
+.contact__illustration {
+    width: 100%;
+    min-width: 360px;
+    height: auto;
+    // background-color: tomato;
+}
+
+.contact__paragraph {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    // padding-left: 2rem;
+
+    p {
+	line-height: 2.8rem;
+    }
+
+    // Turn off flags until class as props have been added
+    // svg { display: none; }
+}
+
+.margin-top {
+    margin-top: 2rem;
+}
+
+@media only screen and (max-width: 850px) {
+    .contact {
+	flex-wrap: wrap;
+    }
+
+    .contact__illustration {
+	min-width: auto; // reset to default
+    }
+}

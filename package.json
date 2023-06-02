@@ -1,0 +1,14 @@
+{
+  "name": "maeurerdev",
+  "version": "2.0.0",
+  "description": "Portfolio Website of Thomas Siedenhans",
+  "author": {
+    "name": "Thomas Siedenhans",
+    "email": "thomas.siedenhans@shareadvisor.io"
+  },
+  "scripts": {
+    "dev": "trunk serve --open",
+    "build": "trunk build"
+  },
+  "license": "MIT"
+}
