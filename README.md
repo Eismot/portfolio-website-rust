@@ -9,9 +9,9 @@ Quick deployment guide:
 - rustup target add wasm32-unknown-unknown
 - npm run dev
 
-<a href="https://thomas.siedenhans.net">https://thomas.siedenhans.net</a>
+<a href="https://tom.hans.net">https://tom.hans.net</a>
 
-<a href="https://thomas.siedenhans.net">
+<a href="https://tom.hans.net">
 	<img src="src/assets/images/website_showcase.png" href=thomas.siedenhans.net"/>
 </a>
 
